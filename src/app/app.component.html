@@ -1,9 +1,15 @@
-<div>admin</div>
-<button routerLink="admin/admin-info">admin-info</button>
-<button routerLink="admin/admin-login">admin-login</button>
-<br>
-<div>user</div>
-<button routerLink="user/user-info">user-info</button>
-<button routerLink="user/user-login">user-login</button>
+<div class="distance">
+  <div>admin</div>
+  <div>
+    <button class="btn btn-primary distance" routerLink="admin/admin-info">admin-info</button>
+    <button class="btn btn-primary" routerLink="admin/admin-login">admin-login</button>
+  </div>
+  <br>
+  <div>user</div>
+  <div>
+    <button class="btn btn-primary distance" routerLink="user/user-info">user-info</button>
+    <button class="btn btn-primary" routerLink="user/user-login">user-login</button>
+  </div>
 
-<router-outlet></router-outlet>
+  <router-outlet></router-outlet>
+</div>
